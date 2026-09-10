@@ -66,12 +66,14 @@ Weather-App/
 ├── script.js
 └── README.md
 
-## 👨‍💻 Author
+
+
+ 👨‍💻 Author
 
 **Muhammad Ahmad Azeem**
 
 Software Engineering Student | Web Developer
 
-## 📄 License
+📄 License
 
 This project is created for learning and educational purposes.
