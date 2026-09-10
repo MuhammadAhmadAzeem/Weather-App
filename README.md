@@ -2,7 +2,7 @@
 
 A responsive weather application built with **HTML5, CSS3, and JavaScript** using the **OpenWeather API**.
 
-Search for any city and view its current weather information through a clean and user-friendly interface.
+Search for any city and view its current weather information through a clean, simple, and user-friendly interface.
 
 ## ✨ Features
 
@@ -65,15 +65,14 @@ Weather-App/
 ├── style.css
 ├── script.js
 └── README.md
+```
 
-
-
- 👨‍💻 Author
+## 👨‍💻 Author
 
 **Muhammad Ahmad Azeem**
 
 Software Engineering Student | Web Developer
 
-📄 License
+## 📄 License
 
 This project is created for learning and educational purposes.
