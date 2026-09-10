@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>`</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Heading -->
+        <h1>
+            <i class="fa-solid fa-cloud-sun"></i>
+            Weather App
+        </h1>
+
+
+        <!-- Search -->
+        <div class="search-box">
+
+            <input type="text" id="cityInput" placeholder="Enter city name">
+
+            <button id="searchBtn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                Search
+            </button>
+
+        </div>
+
+
+        <!-- Weather Card -->
+        <div class="weather-card">
+
+            <!-- Location -->
+            <div class="location">
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                <span id="cityName">
+                    Search a city
+                </span>
+
+            </div>
+
+
+            <!-- Weather Icon -->
+            <div class="weather-icon" id="weatherIcon">
+
+                <i class="fa-solid fa-cloud-sun"></i>
+
+            </div>
+
+
+            <!-- Temperature -->
+            <h2 id="temperature">
+                --°C
+            </h2>
+
+
+            <!-- Description -->
+            <p id="description">
+                Search for a city to see weather
+            </p>
+
+
+            <!-- Weather Details -->
+            <div class="details">
+
+
+                <!-- Humidity -->
+                <div>
+
+                    <i class="fa-solid fa-droplet"></i>
+
+                    <span>Humidity</span>
+
+                    <strong id="humidity">
+                        --%
+                    </strong>
+
+                </div>
+
+
+                <!-- Wind -->
+                <div>
+
+                    <i class="fa-solid fa-wind"></i>
+
+                    <span>Wind</span>
+
+                    <strong id="wind">
+                        -- m/s
+                    </strong>
+
+                </div>
+
+
+                <!-- Feels Like -->
+                <div>
+
+                    <i class="fa-solid fa-temperature-half"></i>
+
+                    <span>Feels Like</span>
+
+                    <strong id="feelsLike">
+                        --°C
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
