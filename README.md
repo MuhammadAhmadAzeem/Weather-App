@@ -71,7 +71,7 @@ Weather-App/
 
 **Muhammad Ahmad Azeem**
 
-Software Engineering Student | Web Developer
+Software Engineer | Web Developer
 
 ## 📄 License
 
